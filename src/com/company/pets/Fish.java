@@ -12,6 +12,12 @@ public class Fish extends Pet implements FishInterface{
     }
 
     @Override
+    public void voice() {
+        super.voice();
+        System.out.println("bul-bul-bul");
+    }
+
+    @Override
     public String status() {
         return "Fish";
     }

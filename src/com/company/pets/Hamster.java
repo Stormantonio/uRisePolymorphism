@@ -11,6 +11,12 @@ public class Hamster extends Pet {
     }
 
     @Override
+    public void voice() {
+        super.voice();
+        System.out.println("chik-chirik-chik-chik");
+    }
+
+    @Override
     public String status() {
         return "Hamster";
     }

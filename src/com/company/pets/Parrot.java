@@ -12,6 +12,12 @@ public class Parrot extends Pet implements Bird {
     }
 
     @Override
+    public void voice() {
+        super.voice();
+        System.out.println("Kesha horoshyi");
+    }
+
+    @Override
     public String status() {
         return "Parrot";
     }

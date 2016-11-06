@@ -36,11 +36,12 @@ public class Main {
             else
                 pets.add(new Rat());
         }
-        /*for (Pet pet : pets) {
-            pet.voice();
-        }*/
         Collections.sort(pets);
-        System.out.println(pets.toString());
+        for (Pet pet : pets) {
+            pet.voice();
+            System.out.println(pet.status() + " weights " + pet.getWeight());
+            System.out.println();
+        }
     }
 }
 // создать побольше домашних животных

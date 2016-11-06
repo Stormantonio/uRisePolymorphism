@@ -39,9 +39,4 @@ abstract public class Pet implements Comparable<Pet> {
         else
             return 0;
     }
-
-    @Override
-    public String toString() {
-        return "\nThe pet is a " + status() + ", weight = " + weight;
-    }
 }

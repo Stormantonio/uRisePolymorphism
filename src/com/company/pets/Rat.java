@@ -11,6 +11,12 @@ public class Rat extends Pet {
     }
 
     @Override
+    public void voice() {
+        super.voice();
+        System.out.println("pipipipi");
+    }
+
+    @Override
     public String status() {
         return "Rat";
     }

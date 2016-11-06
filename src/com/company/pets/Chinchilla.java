@@ -11,7 +11,12 @@ public class Chinchilla extends Pet {
     }
 
     @Override
+    public void voice() {
+        super.voice();
+        System.out.println("piu-piu-piu");
+    }
 
+    @Override
     public String status() {
         return "Chinchilla";
     }
