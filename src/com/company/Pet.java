@@ -1,8 +1,5 @@
 package com.company;
 
-/**
- * Created by Anton on 06.11.2016.
- */
 abstract public class Pet implements Comparable<Pet> {
     private double weight;
 
