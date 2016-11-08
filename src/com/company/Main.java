@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
+// создать побольше домашних животных
+// сортировать по весу и вывести на экран
+
 public class Main {
 
     public static void main(String[] args) {
@@ -44,5 +47,3 @@ public class Main {
         }
     }
 }
-// создать побольше домашних животных
-// сортировать по весу и вывести на экран
